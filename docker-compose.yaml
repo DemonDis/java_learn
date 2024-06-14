@@ -1,0 +1,7 @@
+version:
+services:
+
+  prometheus:
+    container_name: prometheus
+    image: prometheus:v2.40.5
+    volumes:

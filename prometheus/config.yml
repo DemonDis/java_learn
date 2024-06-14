@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 3s
+
+  rule_files:
+
+  scape_config:
+    -job_name: "prometheus"
+      static_configs:
+        -targets: ["prometheus:9090"]
+      
